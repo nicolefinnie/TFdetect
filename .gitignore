@@ -1,0 +1,30 @@
+# Temporary files
+*~
+\#*#
+
+# Android binary
+*.apk
+
+# hprof captures
+captures/
+
+# Gradle files
+.gradle/
+build/
+.externalNativeBuild
+
+# Local configuration file
+local.properties
+
+# IntelliJ
+*.iml
+.idea/
+
+# OSX files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+#model files are too big
+*.pb
