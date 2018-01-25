@@ -4,13 +4,24 @@ A stand-alone Android app ported from Tensorflow `TF detect` in `1.4.0` modified
 # Getting started
 - [Install Android Studio](https://developer.android.com/studio/install.html)
 - Import the project on Android Studio `File->New->Project from Vision Control->GitHub` or `git clone` this repository and import this project to Android Studio. 
-- Install missing dependencies in Android Studio, it's smart enough to walk you through the installation steps. e.g. you probablly need to install `CMake`, mark `CMake` under `Tools > Android > SDK Manager`. For more details, see [Add C and C++ Code to Your Project](https://developer.android.com/studio/projects/add-native-code.html).
+- Install missing dependencies in Android Studio, it's smart enough to walk you through the installation steps. e.g. you probablly need to install `CMake`, mark the checkbox `CMake` under `Tools > Android > SDK Manager`. For more details, see [Add C and C++ Code to Your Project](https://developer.android.com/studio/projects/add-native-code.html).
 - DONE, just run the app on your smartphone!
 
-## Download the latest pretrained model Yolo v2 (optional)
+# Demo
+
+**Well, not bad!!** <br/>
+
+![img](good_job.jpeg)
+
+**Err, close enough.** Blame `coco` for not having the `polar bear` class.<br/>
+
+![img](close_enough.jpeg) 
+<br/>
+
+# Download the latest pretrained model Yolo v2 (optional)
 
 ### Tiny YOLO with coco labels (80 classes)
-You can find the `cfg` and `weights` under `app/src/main/assets` or download the latest one from here:
+You can find the `pb` model generated from `cfg` and `weights` under `app/src/main/assets` or download the latest one from here:
 - [cfg](https://github.com/pjreddie/darknet/blob/master/cfg/tiny-yolo.cfg)
 - [weights](https://pjreddie.com/media/files/tiny-yolo.weights) <br/>
 

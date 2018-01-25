@@ -16,8 +16,8 @@
 -->
 
 <resources>
-    <string name="app_name">EllieAndroid Demo</string>
-    <string name="activity_name_classification">Ellie Classify</string>
-    <string name="activity_name_detection">Ellie Detect</string>
+    <string name="app_name">TensorFlow Demo</string>
+    <string name="activity_name_classification">TF Classify</string>
+    <string name="activity_name_detection">TF Detect</string>
 
 </resources>
