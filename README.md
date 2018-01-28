@@ -34,7 +34,7 @@ and adapted it to the latest YOLO model, so basically, you just need to run
 
 `python3 flow --model cfg/tiny-yolo.cfg --load bin/tiny-yolo.weights --savepb --verbalise`
 
-If you're interested in details of the modification, see the `troubleshooting` section of [my forked Darkflow](https://github.com/nicolefinnie/YoloEllie)
+If you're interested in details of the modification, see the `troubleshooting` section of [my forked Darkflow](https://github.com/nicolefinnie/DarkEllie)
 
 
 # Keep up with tensorflow libraries and co.
