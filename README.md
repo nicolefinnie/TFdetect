@@ -9,13 +9,11 @@ A stand-alone Android app ported from Tensorflow `TF detect` in `1.4.0` modified
 
 # Demo
 
-**Well, not bad!!** <br/>
+**Err, close enough** Does that leopard look like a bird? :p Blame `coco` for not having enough classes. (powered by my Google Pixel 2)<br/>
 
-![img](good_job.jpeg)
+![img](Google_Pixel2_2.JPG)
 
-**Err, close enough.** Blame `coco` for not having the `polar bear` class.<br/>
 
-![img](close_enough.jpeg) 
 <br/>
 
 # Download the latest pretrained model Yolo v2 (optional)
